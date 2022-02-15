@@ -1,3 +1,6 @@
+#follow @codewithprajith for more projects
+
+
 import psutil
 import platform
 import GPUtil
@@ -5,6 +8,8 @@ from datetime import datetime
 from tkinter import *
 from PIL import Image,ImageTk
 import webbrowser
+
+#follow @codewithprajith for more projects
 
 root = Tk()
 root.title('Your Desktop 1.0 @codewithprajith')
@@ -16,6 +21,8 @@ load=Image.open("gradient.png")
 render=ImageTk.PhotoImage(load)
 img=Label(root,image=render)
 img.place(x=0,y=0)
+
+#follow @codewithprajith for more projects
 
 
 Label(root, text='Your Desktop', font='Verdana 20 bold', fg='#0d0d0d', bg="#ffffff").pack()
@@ -181,3 +188,5 @@ Button(root, text='Follow me \n on Instagram', bg='#aed1cb', fg='#0e1117', font=
 Button(root, text='Exit', bg='#aed1cb', fg='#0e1117', font='Verdana 10 bold', width=10, command=exit).place(x=20, y=350)
 
 root.mainloop()
+
+#follow @codewithprajith for more projects
