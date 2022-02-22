@@ -17,7 +17,7 @@ root.geometry('680x400')
 root.resizable(False, False)
 root.iconbitmap('sysinfo.ico')
 
-load=Image.open("gradient.png")
+load=Image.open("bg.png")
 render=ImageTk.PhotoImage(load)
 img=Label(root,image=render)
 img.place(x=0,y=0)
